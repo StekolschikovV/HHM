@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
@@ -16,6 +16,7 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
@@ -40,7 +41,7 @@
             </div>
         </section>
         <section class="container" id="sectionForm">
-            <form action="" class="row">
+            <form id="form" class="row">
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="formName">Имя:
@@ -57,10 +58,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="exampleTextarea">Комментарий:
+                        <label for="formComment">Комментарий:
                             <span class="red">*</span>
                         </label>
-                        <textarea class="form-control" id="exampleTextarea" required></textarea>
+                        <textarea class="form-control" id="formComment" required></textarea>
                     </div>
                     <div class="form-group text-right">
                         <button type="submit" class="btn">Записать</button>
@@ -71,43 +72,7 @@
     </div>
     <section class="container text-center" id="sectionCommets">
         <h4>Выводим комментарии:</h4>
-        <div id="commets" class="row">
-            <div class="col-md-4">
-                <article class="card">
-                    <header>Вася</header>
-                    <div class="email">vasya@mail.ru</div>
-                    <footer>Всем привет, я Вася</footer>
-                </article>
-            </div>
-            <div class="col-md-4">
-                <article class="card">
-                    <header>Вася</header>
-                    <div class="email">vasya@mail.ru</div>
-                    <footer>Всем привет, я Вася</footer>
-                </article>
-            </div>
-            <div class="col-md-4">
-                <article class="card">
-                    <header>Вася</header>
-                    <div class="email">vasya@mail.ru</div>
-                    <footer>Всем привет, я Вася</footer>
-                </article>
-            </div>
-            <div class="col-md-4">
-                <article class="card">
-                    <header>Вася</header>
-                    <div class="email">vasya@mail.ru</div>
-                    <footer>Всем привет, я Вася</footer>
-                </article>
-            </div>
-            <div class="col-md-4">
-                <article class="card">
-                    <header>Вася</header>
-                    <div class="email">vasya@mail.ru</div>
-                    <footer>Всем привет, я Вася</footer>
-                </article>
-            </div>
-        </div>
+        <div id="commets" class="row"></div>
     </section>
     <footer class="grey-bg">
         <div class="container">
@@ -131,7 +96,7 @@
         </div>
     </footer>
 
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 </body>
 
 </html>
