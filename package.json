@@ -1,0 +1,35 @@
+{
+  "name": "hhm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "start": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StekolschikovV/HHM.git"
+  },
+  "author": "Stekolschikov <v.a.stekolschikov@gmail.com> (stekolschikovv.hithub.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StekolschikovV/HHM/issues"
+  },
+  "homepage": "https://github.com/StekolschikovV/HHM#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "pump": "^1.0.3"
+  }
+}
