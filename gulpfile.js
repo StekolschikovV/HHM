@@ -10,12 +10,14 @@ var prefix = require('gulp-autoprefixer')
 var htmlmin = require('gulp-htmlmin')
 
 var srcJs = [
+    './dev/lib/popper.min.js',
     './dev/lib/jquery-3.2.1.min.js',
     './dev/lib/bootstrap-4.0.0/js/bootstrap.min.js'
 ]
 
 var srcCss = [
-    './dev/lib/bootstrap-4.0.0/css/bootstrap.min.css'
+    './dev/lib/bootstrap-4.0.0/css/bootstrap.min.css',
+    './dev/style.css'
 ]
 
 var srcHtml = [

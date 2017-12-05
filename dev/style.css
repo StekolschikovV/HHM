@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body *{
+    font-family: 'Roboto', sans-serif;
+    outline: none !important;
+}
+a:link {
+    text-decoration: none !important;
+}
+.grey-bg{
+    width: 100%;
+    background: #2d3136;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.red{
+    color: #be393b
+}
+
+/* sectionNavbar */
+#sectionNavbar .logo{
+    height: 40px;
+    min-width: 195px;
+    max-width: 100%;
+    text-align: left;
+}
+
+/* sectionIcon */
+#sectionIcon .emailIconBlock{
+    text-align: center;
+    padding-top: 50px
+}
+#sectionIcon #emailIcon{
+    width: 150px;
+}
+
+/* sectionForm */
+#sectionForm{
+    margin-top: 25px;
+    color: white;
+}
+#sectionForm input, #sectionForm textarea {
+    background: transparent !important;
+    border: 1px solid #4c4f53 !important;
+    margin-bottom: 30px !important;
+    color: white !important;
+}
+#sectionForm textarea{
+    height: 140px
+}
+#sectionForm input:active, #sectionForm input:focus, #sectionForm textarea:active, #sectionForm textarea:focus{
+    border: 1px solid #be393b !important;
+}
+#sectionForm .btn{
+    background: #be393b;
+    color: white;
+}
+#sectionCommets {
+    padding: 90px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#sectionCommets h4{
+    margin-bottom: 50px
+}
+#sectionCommets article{
+    margin-bottom: 30px;
+    border: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#sectionCommets header{
+    background: #2d3136;
+    color: white;
+    padding: 10px;
+}
+#sectionCommets .email{
+    color: #2d3136;
+    font-weight: bold;
+    background: #e9eef3;
+    padding-top: 20px;
+}
+#sectionCommets footer{
+    background: #e9eef3;
+    padding-top: 25px;
+    padding-bottom: 60px
+}
+#sectionCommets .col-md-4:nth-child(2n) header {
+    background: #58ad52;
+}
+#sectionCommets .col-md-4:nth-child(2n) .email{
+    color: #58ad52;
+}
+
+/* footer */
+footer .logo{
+    height: 30px;
+    width: auto;
+    min-width: auto;
+}
+footer .col{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .SS a {
+    margin-left: 10px;
+}
+footer .SS img{
+    width: 40px
+}
